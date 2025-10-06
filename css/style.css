@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+}
+canvas{ 
+    border: 3px  solid white;
+    border-radius: 12px;
+    background: transparent;
+
+}
+
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: transparent; /* fondo totalmente transparente */
+    padding: 20px; /* opcional, para mantener espacio alrededor del botón */
+}
+
+#btn-iniciar {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-iniciar:hover {
+    background-color: rgb(10, 244, 240);
+}
+
+#btn-iniciar:active {
+    background-color: aqua;
+    transform: translateY(2px);
+}
+
+#menu p {
+    
+     margin-top: 19px;
+    font-size: 20px;
+    color: white;
+}
