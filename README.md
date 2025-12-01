@@ -1,2 +1,2 @@
 # juegodebarco
-proyecto de cracion de videojuegos
+proyecto de creacion de videojuegos
